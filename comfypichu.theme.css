@@ -1,0 +1,134 @@
+/**
+* @name Comfypichu
+* @author ven#0069
+* @description Mixture of Nyria#3863 Comfy theme and Lilypichu theme
+* @invite rtBQX5D3bD
+* @version 1.0
+* @donate https://ko-fi.com/nyria
+*/
+@import url("https://ventispurr.github.io/ComfyPichu/main.css");
+@import url("https://nyri4.github.io/donators/donators.css");
+@import url("https://nyri4.github.io/LilyPichu/main.css");
+
+
+
+@media (min-width: 1200px) {
+    .container-2lgZY8::before { background: url('https://media.discordapp.net/attachments/756702542586576957/921938433855881276/Uteki_Pat.gif') bottom/50% no-repeat;}
+    
+}
+
+:root .app-1q1i1E::before, :root .app-1q1i1E::after { display: none;}
+
+
+
+:root .app-2rEoOp::after { 
+    background: none, no-repeat;
+    background-size: 0%;
+}
+
+:root .app-2rEoOp::before { 
+    background: none, no-repeat;
+    background-size: 0%;
+}
+
+
+:root .layers-3iHuyZ::after { 
+    background: none, no-repeat;
+    background-size: 0%;
+}
+
+:root .layers-3iHuyZ::before {
+    background: none, no-repeat;
+    background-size: 0%;
+    right: -3px;
+}
+
+:root .bg-h5JY_x::after { 
+    background: none, no-repeat;
+    background-size: 0%;
+}
+
+:root .bg-h5JY_x::before { 
+    background: none, no-repeat;
+    background-size: 0%;
+}
+
+
+
+:root {
+
+  /* --- User variables --- */
+  
+  /* Jumping GIF */
+  --jumping-gif: url('https://static.wikia.nocookie.net/katana-zero/images/f/f4/GirlPlayingWithBehemoth.gif');
+  
+  /* Background (if you want an image replace it by : 
+  
+  --background-tertiary-alt: url("image-link"); without that => */
+  --background-tertiary-alt: #101320;
+  
+  /* Border-radius for the whole theme */
+  --border-radius: 20px; }
+
+  .theme-dark {
+  
+      /* Text 
+      --text-normal: #ffffff;
+      --header-primary: #c2a5aa;
+      --interactive-normal: #fab1bd;
+      --channels-default: #f8e1e5;
+  
+      --text-muted: #e2c1c7;
+      --interactive-muted: #ad8c91;
+  
+      --header-secondary: #e2c1c7;
+      --interactive-hover: #e2c1c7;
+      --interactive-active: #e2c1c7; */
+      
+      /* Background color */
+      --background-primary: #23283D;
+      --background-secondary: #1E2233;
+      --background-secondary-alt: #191F2E;
+      --background-tertiary: #101320;
+      --background-floating: #101320;
+      --background-accent: #7289DA;
+      --channeltextarea-background: var(--background-secondary);
+      --background-modifier-hover: #00000010;
+      --background-modifier-active: #0000001a;
+      --background-modifier-selected: #0000001f;
+  
+      /* Scrollbar */
+      --scrollbar-auto-thumb: var(--background-tertiary);
+      --scrollbar-auto-track: var(--background-secondary-alt);
+      --scrollbar-thin-thumb: var(--background-tertiary);
+      --scrollbar-thin-track: transparent;
+  
+      /* Other */
+      --deprecated-quickswitcher-input-background: var(--background-primary);
+  }
+      .colorBrand-ROmMP1 { color: #292d50;}
+      .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+  
+      /* Buttons */
+      .lookFilled-1Gx00P { background-color: #292d50 !important;}
+      .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #b64a61 !important;}
+      .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #292d50; border-color: #292d50;}
+  
+      /* Hover background */
+      .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+  
+      .colorBrand-ROmMP1 { color: #292d50;}
+      .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+  
+      /* Buttons */
+      .lookFilled-1Gx00P { background-color: #292d50 !important;}
+      .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #212441 !important;}
+      .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #292d50; border-color: #292d50;}
+  
+      /* Hover background */
+      .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+
+
+
+
