@@ -11,4 +11,5 @@ Mixture of [Ushies](https://github.com/Ushie/Comfypichu) ComfyPichu theme and [N
 ![image](https://user-images.githubusercontent.com/91895035/146661123-28d5d0bd-b1da-453b-b2c2-6c5227693af0.png)
 
 
+![image](https://user-images.githubusercontent.com/91895035/146661132-fe36cb82-02a9-4a9d-bda0-438dbc8e8498.png)
 
