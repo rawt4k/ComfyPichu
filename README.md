@@ -8,7 +8,7 @@ Mixture of [Ushies](https://github.com/Ushie/Comfypichu) ComfyPichu theme and [N
 ![image](https://user-images.githubusercontent.com/91895035/146661115-fbe4dd6e-1ea8-4885-8dde-cc3deaf9affb.png)
 
 
-![image](https://user-images.githubusercontent.com/91895035/146661042-af1989a2-25bb-4b2d-8f5f-bf3dcc40a2dc.png)
+![image](https://user-images.githubusercontent.com/91895035/146661123-28d5d0bd-b1da-453b-b2c2-6c5227693af0.png)
 
 
 
