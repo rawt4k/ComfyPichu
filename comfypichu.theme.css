@@ -10,123 +10,63 @@
 @import url("https://nyri4.github.io/donators/donators.css");
 @import url("https://nyri4.github.io/LilyPichu/main.css");
 
-
-
-@media (min-width: 1200px) {
-    .container-2lgZY8::before { background: url('https://media.discordapp.net/attachments/756702542586576957/921938433855881276/Uteki_Pat.gif') bottom/50% no-repeat;}
-    
-}
-
-:root .app-1q1i1E::before, :root .app-1q1i1E::after { display: none;}
-
-
-
-:root .app-2rEoOp::after { 
-    background: none, no-repeat;
-    background-size: 0%;
-}
-
-:root .app-2rEoOp::before { 
-    background: none, no-repeat;
-    background-size: 0%;
-}
-
-
-:root .layers-3iHuyZ::after { 
-    background: none, no-repeat;
-    background-size: 0%;
-}
-
-:root .layers-3iHuyZ::before {
-    background: none, no-repeat;
-    background-size: 0%;
-    right: -3px;
-}
-
-:root .bg-h5JY_x::after { 
-    background: none, no-repeat;
-    background-size: 0%;
-}
-
-:root .bg-h5JY_x::before { 
-    background: none, no-repeat;
-    background-size: 0%;
-}
-
-
+:root .app-3xd6d0::before, :root .app-3xd6d0::after, :root .app-2CXKsg::after, :root .app-2CXKsg::before, :root .layers-OrUESM::before, :root .layers-OrUESM::after, :root .app-3xd6d0::before, :root .bg-1QIAus::after, :root .bg-1QIAus::before {
+    content: none;
+  }
 
 :root {
 
-  /* --- User variables --- */
-  
-  /* Jumping GIF */
-  --jumping-gif: url('https://static.wikia.nocookie.net/katana-zero/images/f/f4/GirlPlayingWithBehemoth.gif');
-  
-  /* Background (if you want an image replace it by : 
-  
-  --background-tertiary-alt: url("image-link"); without that => */
-  --background-tertiary-alt: #101320;
-  
-  /* Border-radius for the whole theme */
-  --border-radius: 20px; }
+/* --- User variables --- */
 
-  .theme-dark {
-  
-      /* Text 
-      --text-normal: #ffffff;
-      --header-primary: #c2a5aa;
-      --interactive-normal: #fab1bd;
-      --channels-default: #f8e1e5;
-  
-      --text-muted: #e2c1c7;
-      --interactive-muted: #ad8c91;
-  
-      --header-secondary: #e2c1c7;
-      --interactive-hover: #e2c1c7;
-      --interactive-active: #e2c1c7; */
-      
-      /* Background color */
-      --background-primary: #23283D;
-      --background-secondary: #1E2233;
-      --background-secondary-alt: #191F2E;
-      --background-tertiary: #101320;
-      --background-floating: #101320;
-      --background-accent: #7289DA;
-      --channeltextarea-background: var(--background-secondary);
-      --background-modifier-hover: #00000010;
-      --background-modifier-active: #0000001a;
-      --background-modifier-selected: #0000001f;
-  
-      /* Scrollbar */
-      --scrollbar-auto-thumb: var(--background-tertiary);
-      --scrollbar-auto-track: var(--background-secondary-alt);
-      --scrollbar-thin-thumb: var(--background-tertiary);
-      --scrollbar-thin-track: transparent;
-  
-      /* Other */
-      --deprecated-quickswitcher-input-background: var(--background-primary);
-  }
-      .colorBrand-ROmMP1 { color: #292d50;}
-      .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
-  
-      /* Buttons */
-      .lookFilled-1Gx00P { background-color: #292d50 !important;}
-      .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #b64a61 !important;}
-      .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #292d50; border-color: #292d50;}
-  
-      /* Hover background */
-      .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
-  
-      .colorBrand-ROmMP1 { color: #292d50;}
-      .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
-  
-      /* Buttons */
-      .lookFilled-1Gx00P { background-color: #292d50 !important;}
-      .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #212441 !important;}
-      .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #292d50; border-color: #292d50;}
-  
-      /* Hover background */
-      .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+/* Jumping GIF */
+--jumping-gif: url('https://media.discordapp.net/attachments/756702542586576957/921938433855881276/Uteki_Pat.gif');
+
+/* Background (if you want an image replace it by : 
+--background-tertiary-alt: url("image-link"); without that => */
+--background-tertiary-alt: #191f2e;
+
+/* Border-radius for the whole theme */
+--border-radius: 20px;
+
+}
+
+.theme-dark {
+
+    /* Background color */
+    --background-primary: #23283d;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-tertiary: #101320;
+    --background-floating: #101320;
+    --background-accent: #6E85D3;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: #00000010;
+    --background-modifier-active: #0000001a;
+    --background-modifier-selected: #0000001f;
+    --toast-background: #1e2233  !important;
+    --toast-header: #101320  !important;
+    --toast-contents: #23283d  !important;
+    --toast-border: #101320 !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-3cPPsm { color: #101320;}
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #101320 !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #23283d !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #101320; border-color: #101320;}
+
+    /* Hover background */
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
 
 
 
