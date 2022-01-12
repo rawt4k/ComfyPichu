@@ -1620,7 +1620,7 @@
     overflow: visible;
   }
 
-  .footer-3naVBw {
+  .footer-3naVBw::after {
 margin-top: 20px;
 padding: 0px;
 }
