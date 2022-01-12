@@ -1502,7 +1502,7 @@
 :root .whyYouMightLikeIt-2zZIIj, :root .content-1W9-9i, :root .bodySection-3iDdop, :root .row-2qQ--F {
   background: var(--background-secondary);
 }
-:root .footer-3naVBw::after {
+:root .footer-3naVBw {
 margin-top: 20px;
 padding: 0px;
 }
