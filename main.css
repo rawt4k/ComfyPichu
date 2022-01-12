@@ -1502,6 +1502,10 @@
 :root .whyYouMightLikeIt-2zZIIj, :root .content-1W9-9i, :root .bodySection-3iDdop, :root .row-2qQ--F {
   background: var(--background-secondary);
 }
+:root .footer-3naVBw::after {
+margin-top: 20px;
+padding: 0px;
+}
 :root .toolbar-37BrJ5 {
   display: flex !important;
   background-color: var(--background-secondary-alt);
@@ -1619,11 +1623,6 @@
   .container-1eFtFS {
     overflow: visible;
   }
-
-  .footer-3naVBw::after {
-margin-top: 20px;
-padding: 0px;
-}
   
   .layers-OrUESM > :nth-child(2) {
     margin-right: 450px;
