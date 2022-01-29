@@ -36,7 +36,7 @@
     --background-primary: #23283d;
     --background-secondary: #1e2233;
     --background-secondary-alt: #191f2e;
-    --background-tertiary: #191F2E;
+    --background-tertiary: #101320;
     --background-floating: #101320;
     --background-accent: #6E85D3;
     --channeltextarea-background: var(--background-secondary);
@@ -57,7 +57,7 @@
     /* Other */
     --deprecated-quickswitcher-input-background: var(--background-primary);
 }
-    .colorBrand-3cPPsm { color: #101320;}
+    .colorBrand-3cPPsm { color: var(--interactive-normal);}
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
 
     /* Buttons */
@@ -67,8 +67,4 @@
 
     /* Hover background */
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
-
-
-
-
 
